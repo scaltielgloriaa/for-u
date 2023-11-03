@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('bg3.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+}
+
+#clickableImage {
+    width: auto; /* Set the width to auto to follow the image's original width */
+    height: auto; /* Set the height to auto to follow the image's original height */
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#clickableImage:hover {
+    transform: scale(1.1);
+}
